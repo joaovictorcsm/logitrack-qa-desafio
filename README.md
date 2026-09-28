@@ -26,7 +26,7 @@ logitrack-qa-desafio/
 ├── evidencias/
 │   └── Evidências dos cenários executados
 │
-├── testes/
+├── teste_automacao/
 │   └── test_login.py
 │
 ├── .gitignore
@@ -91,7 +91,7 @@ playwright install
 Abra o terminal na pasta raiz do projeto e execute:
 
 ```bash
-pytest testes/test_login.py -v --headed
+pytest teste_automacao/test_login.py -v --headed
 ```
 
 A opção `--headed` permite acompanhar visualmente a execução dos testes no navegador.
