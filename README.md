@@ -4,7 +4,7 @@ Projeto desenvolvido como parte de um desafio técnico de Qualidade, com foco na
 
 O projeto contempla a elaboração de cenários de teste, registro de evidências, análise da experiência do usuário e uma prova de conceito de automação utilizando Playwright.
 
-## 📋 Atividades realizadas
+##  Atividades realizadas
 
 - Elaboração e execução de cenários de testes funcionais;
 - Validação das funcionalidades de login, veículos, manutenções, viagens e dashboard;
@@ -14,7 +14,7 @@ O projeto contempla a elaboração de cenários de teste, registro de evidência
 - Análise da experiência do usuário (UX);
 - Automação de cenários de login com Playwright.
 
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 logitrack-qa-desafio/
@@ -48,7 +48,7 @@ Contém as capturas de tela utilizadas como evidências da execução dos cenár
 
 Contém a prova de conceito de automação desenvolvida com Python, Playwright e Pytest.
 
-## 🤖 Automação de testes
+##  Automação de testes
 
 Foram automatizados três cenários relacionados ao login:
 
@@ -58,7 +58,7 @@ Foram automatizados três cenários relacionados ao login:
 
 A automação verifica o comportamento da aplicação a partir da URL apresentada após a tentativa de autenticação.
 
-## 🛠️ Ferramentas utilizadas
+##  Ferramentas utilizadas
 
 - Python
 - Playwright
@@ -68,7 +68,7 @@ A automação verifica o comportamento da aplicação a partir da URL apresentad
 - Git
 - GitHub
 
-## ▶️ Como executar a automação
+##  Como executar a automação
 
 ### Pré-requisitos
 
@@ -96,12 +96,24 @@ pytest teste_automacao/test_login.py -v --headed
 
 A opção `--headed` permite acompanhar visualmente a execução dos testes no navegador.
 
-## 📊 Documentação dos testes
+##  Documentação dos testes
 
 Os cenários funcionais e seus respectivos resultados estão documentados na planilha disponível em `docs/`.
 
 As capturas de tela correspondentes às execuções estão organizadas na pasta `evidencias/`.
 
-## 👤 Autor
+##  Estratégia de Testes Adicionais
+
+Além dos testes funcionais executados, foram propostas estratégias adicionais para ampliar a cobertura de qualidade do sistema:
+
+- **Testes de Segurança — Prioridade Alta:** validação de autenticação, sessão e controle de acesso, visando reduzir riscos de acessos não autorizados e exposição indevida de informações.
+
+- **Automação de Interface — Prioridade Alta:** ampliação da automação para cenários críticos e repetitivos, reduzindo o risco de regressões. Como prova de conceito, foram automatizados cenários de login utilizando Playwright e Pytest.
+
+- **Testes de Acessibilidade — Prioridade Média:** validação de formulários, campos, botões, menus e navegação, buscando reduzir barreiras de utilização e melhorar a acessibilidade da aplicação.
+
+A estratégia completa, incluindo objetivos, áreas do sistema, riscos e prioridades, está disponível na pasta `docs/`.
+
+##  Autor
 
 João Victor Costa
