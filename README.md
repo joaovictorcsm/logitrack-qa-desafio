@@ -21,7 +21,8 @@ logitrack-qa-desafio/
 │
 ├── docs/
 │   ├── 11_cenários_teste.xlsx
-│   └── analise_experiência_usuário.pdf
+│   ├── analise_experiência_usuário.pdf
+│   └── estrategia_testes_adicionais.pdf
 │
 ├── evidencias/
 │   └── Evidências dos cenários executados
